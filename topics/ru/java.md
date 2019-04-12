@@ -196,7 +196,7 @@
 
 [What is the difference between Serial and Throughput Garbage collector?](#what-is-the-difference-between-serial-and-throughput-garbage-collector)
 
-[What is the difference between HashSet and TreeSet?](#what-is-the-difference-between-hashset-and-treeset)
+[В чём разница между HashSet и TreeSet?](#в-чём-разница-между-hashset-и-treeset)
 
 [Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
 
@@ -1214,9 +1214,9 @@ The throughput garbage collector uses a parallel version of the young generation
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between HashSet and TreeSet?
+### В чём разница между HashSet и TreeSet?
 
-The [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) is Implemented using a hash table and thus, its elements are not ordered. The add, remove, and contains methods of a [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)  have constant time complexity O(1). On the other hand, a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) is implemented using a tree structure. The elements in a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) are sorted, and thus, the add, remove, and contains methods have time complexity of O(logn).
+[HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) реализован с использованием хеш таблиц, и поэтому его элементы не упорядочены. Add, remove, и contains методы у [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) имеют ассимптотическую сложность O(1). [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) реализован с использованием структуры "дерево". Элементы в [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) уорядочены, и поэтому add, remove, и contains методы имеют ассимптотическую сложность O(logn).
 
 ###### Source
 
