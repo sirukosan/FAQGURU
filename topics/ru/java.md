@@ -2,7 +2,7 @@
 
 [Что такое JVM? Почему Java называется платформонезависимым языком программирования?](#что-такое-jvm-почему-java-называется-платформонезависимым-языком-программирования)
 
-[What is a Servlet?](#what-is-a-servlet)
+[Что такое Servlet?](#что-такое-servlet)
 
 [What is a JSP Page?](#what-is-a-jsp-page)
 
@@ -217,9 +217,9 @@
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is a Servlet?
+### Что такое Servlet?
 
-The servlet is a Java programming language class used to process client requests and generate dynamic web content. Servlets are mostly used to process or store data submitted by an HTML form, provide dynamic content and manage state information that does not exist in the stateless HTTP protocol.
+Сервлет - это класс языка Java, используемый для обработки запросов клиента и генерирования динамического web контента. В основном, сервлеты используются для обработки или хранения данных, отправленных HTML формой, предоставляют динамический контент и управляют информацией состояния, которой не существует в "stateless" HTTP протоколе.
 
 ###### Source
 
